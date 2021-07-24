@@ -1,7 +1,7 @@
 #!/bin/bash -x
 for fileName in $(ls)
 do
-  ext=${fileName#\.}
+  ext=${fileName##*\.}
   case "$ext" in
   java)
     echo $fileName:java source file
