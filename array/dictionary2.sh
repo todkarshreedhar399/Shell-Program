@@ -1,0 +1,40 @@
+#!/bin/bash -x
+month=$[RANDOM%13]
+if [ $month -gt 0 ]
+case $month in
+     1) 
+       birthmonth="January"
+       ;;
+     2)
+       birthmonth="February"
+       ;;
+     3)
+       birthmonth="March"
+       ;;
+     4)
+       birthmonth="April"
+       ;;
+     5)
+       birthmonth="May"
+       ;;
+     6)
+       birthmonth="June"
+       ;;
+     7)
+       birthmonth="July"
+       ;;
+     8)
+       birthmonth="August"
+       ;;
+     9)
+       birthmonth="September"
+       ;;
+     10)
+       birthmonth="October"
+       ;;
+     11)
+       birthmonth="November"
+       ;;
+     12)
+       birthmonth="December"
+       ;;
